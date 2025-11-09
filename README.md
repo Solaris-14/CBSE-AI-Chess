@@ -1,6 +1,4 @@
 # Requirements
----
-
 - python-chess
 - torchvision
 - eel
