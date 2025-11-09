@@ -1,8 +1,9 @@
 # Requirements
 ---
-python-chess
-torchvision
-eel
+
+- python-chess
+- torchvision
+- eel
 ---
 ## Description
 ---
