@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AI Chess</title>
+    <link rel="stylesheet" href="board.css">
+</head>
+<body>
+
+    <h1 class="title">AI Chess</h1>
+
+    <div class="layout">
+        <div id="board"></div>
+        <aside id="moves">
+            <div class="moves-header">Moves</div>
+            <div id="stats-panel">
+                <div class="stats-title">Performance</div>
+                <div id="perf-summary">
+                    <div>Wins: <span id="stat-wins">0</span></div>
+                    <div>Losses: <span id="stat-losses">0</span></div>
+                    <div>Draws: <span id="stat-draws">0</span>
+                    <div>Total: <span id="stat-total">0</span></div>
+                </div>
+                <div id="perf-recent"></div>
+            </div>
+            <ol id="moves-list"></ol>
+            <button id="resetBtn">Reset</button>
+        </aside>
+    </div>
+
+    <div id="status" style="margin-top:12px; font-size:18px;"></div>
+
+    <script src="/eel.js"></script>
+    <script src="board.js"></script>
+</body>
+</html>
